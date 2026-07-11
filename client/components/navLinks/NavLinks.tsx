@@ -1,7 +1,7 @@
 import {NavLink} from "@/components/navLink/NavLink";
 export const navigationLinks = [
     { href: "/", label: "Home" },
-    { href: "/products", label: "All Rackets" },
+    { href: "/rackets", label: "All Rackets" },
     { href: "/top-10", label: "Top 10" },
     { href: "/login", label: "Login" },
     { href: "/signup", label: "Sign Up" },
