@@ -36,7 +36,7 @@ export default async function RacketsPage(props: {
           <RacketFilters selectedBrand={selectedBrand} />
         </div>
       </section>
-      <div className='container'>
+      <div>
         <Suspense fallback={<p>Loading rackets...</p>}>
           <RacketCardListContainer brand={brand} />
         </Suspense>
