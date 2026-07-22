@@ -10,6 +10,7 @@ type RacketCardProps = {
     racket: Racket
     href: string
     badge?: string
+    rank?: number
 }
 
 const formatPrice = (price: number) =>
@@ -21,6 +22,7 @@ const formatPrice = (price: number) =>
 export const RacketCard = (props: RacketCardProps) => {
     const {imageUrl, name, model, price, description} = props.racket
     const subtitle = description || model
+    const isTopThreeRank = props.rank !== undefined && props.rank <= 3
 
     return (
         <article className="group relative flex h-full min-h-[470px] flex-col overflow-hidden rounded-md border border-[#dfe4dd] bg-white text-[#101516] transition-colors duration-200 hover:border-[#cfd8ca]">
@@ -42,6 +44,17 @@ export const RacketCard = (props: RacketCardProps) => {
                 {props.badge && (
                     <span className="pointer-events-none absolute left-4 top-4 z-20 rounded-full bg-[#e6ef3f] px-3 py-1 text-[11px] font-extrabold uppercase text-[#233000]">
                         {props.badge}
+                    </span>
+                )}
+                {props.rank !== undefined && (
+                    <span
+                        className={`pointer-events-none absolute right-4 top-4 z-20 inline-flex h-12 min-w-12 items-center justify-center rounded-full px-3 text-sm font-extrabold shadow-sm ${
+                            isTopThreeRank
+                                ? 'bg-[#101516] text-white ring-2 ring-[#e6ef3f]'
+                                : 'border border-[#dfe4dd] bg-white text-[#4d6500]'
+                        }`}
+                    >
+                        #{props.rank}
                     </span>
                 )}
             </div>

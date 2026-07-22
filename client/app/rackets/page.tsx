@@ -2,16 +2,13 @@ import type { Metadata } from "next";
 import { RacketFilters } from "@/components/racketFilters/RacketFilters";
 import {Suspense} from "react";
 import {RacketCardListContainer} from "@/components/racketCardList/RacketCardListContainer";
+import {getSelectedBrand} from "@/utils/getSelectedBrand.util";
 
 export const metadata: Metadata = {
   title: "All Tennis Rackets | Rackets Shop",
   description:
     "Discover professional-grade tennis rackets engineered for precision, speed, and performance.",
 };
-
-function getSelectedBrand(brand?: string | string[]) {
-  return Array.isArray(brand) ? brand[0] : brand;
-}
 
 export default async function RacketsPage(props: {
   searchParams: Promise<{ brand: string }>
