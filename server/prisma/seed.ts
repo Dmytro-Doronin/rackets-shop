@@ -20,7 +20,7 @@ const productsData: Prisma.ProductCreateInput[] = [
     model: "Pro Staff 97",
     imageUrl: "http://localhost:4000/Wilson-Pro-Staff-97-v14.jpg",
     price: 259,
-    type: "racket",
+    type: "racketContainer",
     year: 2023,
     top10: true,
     description:
@@ -36,7 +36,7 @@ const productsData: Prisma.ProductCreateInput[] = [
     model: "Blade 98",
     imageUrl: "http://localhost:4000/Wilson-Blade-98-v8.jpg",
     price: 249,
-    type: "racket",
+    type: "racketContainer",
     year: 2022,
     top10: true,
     description:
@@ -52,7 +52,7 @@ const productsData: Prisma.ProductCreateInput[] = [
     model: "Clash 100",
     imageUrl: "http://localhost:4000/Wilson-Clash-100-v2.jpg",
     price: 239,
-    type: "racket",
+    type: "racketContainer",
     year: 2022,
     top10: false,
     description:
@@ -68,7 +68,7 @@ const productsData: Prisma.ProductCreateInput[] = [
     model: "Ultra 100",
     imageUrl: "http://localhost:4000/Wilson-Ultra-100-v4.jpg",
     price: 229,
-    type: "racket",
+    type: "racketContainer",
     year: 2022,
     top10: true,
     description:
@@ -84,7 +84,7 @@ const productsData: Prisma.ProductCreateInput[] = [
     model: "Burn 100",
     imageUrl: "http://localhost:4000/Wilson-Burn-100-v5.jpg",
     price: 219,
-    type: "racket",
+    type: "racketContainer",
     year: 2021,
     top10: false,
     description:
@@ -100,7 +100,7 @@ const productsData: Prisma.ProductCreateInput[] = [
     model: "Pro Staff 97L",
     imageUrl: "http://localhost:4000/Wilson-Pro-Staff-97L-v14.jpg",
     price: 239,
-    type: "racket",
+    type: "racketContainer",
     year: 2023,
     top10: false,
     description:
@@ -116,7 +116,7 @@ const productsData: Prisma.ProductCreateInput[] = [
     model: "Blade 100L",
     imageUrl: "http://localhost:4000/Wilson-Blade-100L-v8.jpg",
     price: 239,
-    type: "racket",
+    type: "racketContainer",
     year: 2022,
     top10: false,
     description:
@@ -132,7 +132,7 @@ const productsData: Prisma.ProductCreateInput[] = [
     model: "Clash 98",
     imageUrl: "http://localhost:4000/Wilson-Clash-98-v2.jpg",
     price: 249,
-    type: "racket",
+    type: "racketContainer",
     year: 2022,
     top10: false,
     description:
@@ -148,7 +148,7 @@ const productsData: Prisma.ProductCreateInput[] = [
     model: "Speed MP",
     imageUrl: "http://localhost:4000/Head-Speed-MP-2024.jpg",
     price: 269,
-    type: "racket",
+    type: "racketContainer",
     year: 2024,
     top10: true,
     description:
@@ -164,7 +164,7 @@ const productsData: Prisma.ProductCreateInput[] = [
     model: "Speed Pro",
     imageUrl: "http://localhost:4000/Head-Speed-Pro-2024.jpg",
     price: 279,
-    type: "racket",
+    type: "racketContainer",
     year: 2024,
     top10: true,
     description:
@@ -180,7 +180,7 @@ const productsData: Prisma.ProductCreateInput[] = [
     model: "Radical MP",
     imageUrl: "http://localhost:4000/Head-Radical-MP-2023.jpg",
     price: 259,
-    type: "racket",
+    type: "racketContainer",
     year: 2023,
     top10: false,
     description:
@@ -196,7 +196,7 @@ const productsData: Prisma.ProductCreateInput[] = [
     model: "Gravity Pro",
     imageUrl: "http://localhost:4000/Head-Gravity-Pro-2023.png",
     price: 279,
-    type: "racket",
+    type: "racketContainer",
     year: 2023,
     top10: false,
     description:
@@ -212,7 +212,7 @@ const productsData: Prisma.ProductCreateInput[] = [
     model: "Extreme MP",
     imageUrl: "http://localhost:4000/Head-Extreme-MP-2023.jpg",
     price: 259,
-    type: "racket",
+    type: "racketContainer",
     year: 2023,
     top10: true,
     description:
@@ -228,7 +228,7 @@ const productsData: Prisma.ProductCreateInput[] = [
     model: "Speed Team",
     imageUrl: "http://localhost:4000/Head-Speed-Team-2024.jpg",
     price: 249,
-    type: "racket",
+    type: "racketContainer",
     year: 2024,
     top10: false,
     description:
@@ -244,7 +244,7 @@ const productsData: Prisma.ProductCreateInput[] = [
     model: "Ezone 98",
     imageUrl: "http://localhost:4000/Yonex-Ezone-98-2024.jpg",
     price: 265,
-    type: "racket",
+    type: "racketContainer",
     year: 2024,
     top10: true,
     description:
@@ -260,7 +260,7 @@ const productsData: Prisma.ProductCreateInput[] = [
     model: "VCore 100",
     imageUrl: "http://localhost:4000/Yonex-VCore-100-2023.jpg",
     price: 255,
-    type: "racket",
+    type: "racketContainer",
     year: 2023,
     top10: false,
     description:
@@ -276,7 +276,7 @@ const productsData: Prisma.ProductCreateInput[] = [
     model: "VCore Pro 97",
     imageUrl: "http://localhost:4000/Yonex-VCore-Pro-97-2023.jpg",
     price: 275,
-    type: "racket",
+    type: "racketContainer",
     year: 2023,
     top10: true,
     description:
@@ -292,7 +292,7 @@ const productsData: Prisma.ProductCreateInput[] = [
     model: "Ezone 100L",
     imageUrl: "http://localhost:4000/Yonex-Ezone-100L-2022.jpg",
     price: 239,
-    type: "racket",
+    type: "racketContainer",
     year: 2022,
     top10: false,
     description:
@@ -308,7 +308,7 @@ const productsData: Prisma.ProductCreateInput[] = [
     model: "Percept 97",
     imageUrl: "http://localhost:4000/Yonex-Percept-97-2023.jpg",
     price: 269,
-    type: "racket",
+    type: "racketContainer",
     year: 2023,
     top10: false,
     description:
@@ -324,7 +324,7 @@ const productsData: Prisma.ProductCreateInput[] = [
     model: "Percept 100",
     imageUrl: "http://localhost:4000/Yonex-Percept-100-2023.jpg",
     price: 259,
-    type: "racket",
+    type: "racketContainer",
     year: 2023,
     top10: false,
     description:
@@ -340,7 +340,7 @@ const productsData: Prisma.ProductCreateInput[] = [
     model: "Pure Drive",
     imageUrl: "http://localhost:4000/Babolat-Pure-Drive-2024.jpg",
     price: 230,
-    type: "racket",
+    type: "racketContainer",
     year: 2024,
     top10: true,
     description:
@@ -356,7 +356,7 @@ const productsData: Prisma.ProductCreateInput[] = [
     model: "Pure Aero",
     imageUrl: "http://localhost:4000/Babolat-Pure-Aero-2023.png",
     price: 240,
-    type: "racket",
+    type: "racketContainer",
     year: 2023,
     top10: false,
     description:
@@ -372,7 +372,7 @@ const productsData: Prisma.ProductCreateInput[] = [
     model: "Pure Strike 16x19",
     imageUrl: "http://localhost:4000/Babolat-Pure-Strike-16x19-2024.png",
     price: 250,
-    type: "racket",
+    type: "racketContainer",
     year: 2024,
     top10: false,
     description:
@@ -388,7 +388,7 @@ const productsData: Prisma.ProductCreateInput[] = [
     model: "Pure Drive Lite",
     imageUrl: "http://localhost:4000/Babolat-Pure-Drive-Lite-2023.jpg",
     price: 210,
-    type: "racket",
+    type: "racketContainer",
     year: 2023,
     top10: false,
     description:
@@ -404,7 +404,7 @@ const productsData: Prisma.ProductCreateInput[] = [
     model: "Boost Drive",
     imageUrl: "http://localhost:4000/Babolat-Boost-Drive.jpg",
     price: 180,
-    type: "racket",
+    type: "racketContainer",
     year: 2022,
     top10: false,
     description:
@@ -420,7 +420,7 @@ const productsData: Prisma.ProductCreateInput[] = [
     model: "Boost Aero",
     imageUrl: "http://localhost:4000/Babolat-Boost-Aero.png",
     price: 185,
-    type: "racket",
+    type: "racketContainer",
     year: 2022,
     top10: false,
     description:
@@ -436,7 +436,7 @@ const productsData: Prisma.ProductCreateInput[] = [
     model: "Evo Drive",
     imageUrl: "http://localhost:4000/Babolat-Evo-Drive.png",
     price: 200,
-    type: "racket",
+    type: "racketContainer",
     year: 2023,
     top10: false,
     description:
@@ -452,7 +452,7 @@ const productsData: Prisma.ProductCreateInput[] = [
     model: "Pure Aero Rafa",
     imageUrl: "http://localhost:4000/Babolat-Pure-Aero-Rafa-2024.jpg",
     price: 270,
-    type: "racket",
+    type: "racketContainer",
     year: 2024,
     top10: true,
     description:

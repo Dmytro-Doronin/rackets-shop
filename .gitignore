@@ -10,7 +10,9 @@ node_modules
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
-
+# next.js
+.next/
+out/
 # testing
 /coverage
 .idea
