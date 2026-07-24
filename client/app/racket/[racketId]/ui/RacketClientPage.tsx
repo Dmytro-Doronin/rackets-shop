@@ -6,13 +6,14 @@ import {formatPrice} from "@/utils/formatPrice.util";
 import CartIcon from "@/components/icons/CartIcon";
 import {Racket} from "@/types/rackets.type";
 
-type RacketContainerProps = {
+
+type RacketProps = {
     product: Racket;
 };
 
-export const RacketContainer = ({
-    product,
-}: RacketContainerProps) => {
+export const RacketClientPage = ({
+   product,
+}: RacketProps) => {
 
     const brandName = (product.brand as { name?: string } | undefined)?.name
     const productSpecs = [
